@@ -498,14 +498,21 @@ nav ul {
 /* profile */
 
 .profile {
-  margin: 10px auto ;
-  padding: 100px 100px 0 250px;
   width: 100%;
+  margin: 50px auto;
+}
+
+.profile_list{
+  width: 800px;
+  margin: 0 auto ;
+  text-align: center;
 }
 
 .profile_title {
   font-size: 16px;
+  padding: 50px 100px 0 0;
   padding-bottom: 20px;
+  text-align: left;
 }
 
 .profile_title a {
@@ -536,7 +543,7 @@ nav ul {
 
 .profile_content table th{
   background-color: whitesmoke ;
-  width:250px ;
+  width: 250px ;
   padding: 20px 20px ;
   text-align:left ;
   color : #696969 ;
@@ -545,10 +552,11 @@ nav ul {
 }
 
 .profile_content table td {
-  width: 550px;
+  width: 650px;
   padding: 15px 15px;
   border: 1px gainsboro solid;
   color:grey;
+  text-align: left;
 }
 
 /* contact */
@@ -568,6 +576,10 @@ nav ul {
   z-index: 0;
   width: 50%;
   display: inline-block;
+}
+
+.contact_guide_img img{
+  width: 200%;
 }
 
 .contact_guide_title{
